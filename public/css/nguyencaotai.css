@@ -1,0 +1,17 @@
+
+.container .row .col-md-3 >p> img{
+  padding: 50px;
+
+}
+.container .row .col-md-3 p img {
+    background: rgb(61, 120, 204);
+}
+.container .row .col-md-3 .lever {
+  padding: 17px !important;
+}
+.container .row h2 {
+  font-size: 154%
+}
+div.img.text-center{
+  background: white !important;
+}

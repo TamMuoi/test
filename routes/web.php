@@ -12,5 +12,19 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('master-layout');
 });
+
+Route::get('/header', function () {
+    return view('header');
+});
+
+Route::get('/footer', function () {
+    return view('footer');
+});
+
+Route::get('/fights', function () {
+    return view('pages.fights');
+});
+
+

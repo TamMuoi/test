@@ -1,0 +1,427 @@
+.breadcrumb-content {
+	background-color: #f1f1f1;
+	color: #4D96FF;
+	padding: 0.75rem 0;
+	font-size: 12px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    /*color: #6c757d;*/
+    content: ">";
+}
+
+.breadcrumb > li + li:before {
+	content: ">\00a0";
+    padding: 0 5px;
+    color: #4D96FF;
+}
+
+#content-fights-detail .breadcrumb-nav-fights {
+	height: 40px;
+}
+
+#content-fights-detail .breadcrumb-fights {
+	margin-bottom: 0;
+}
+
+/*--Banner--*/
+
+.banner-fights {
+	background-image: url("../image/banner-fights.jpg");
+	width: 100%;
+	height: 240px;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.banner-fights {
+/*	width: 100%;
+	max-height: 240px;
+	height: auto;*/
+}
+
+.banner-fights img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 5;
+}
+
+/*---------Count down-----------*/
+
+#content-fights-detail .countdown-block-fights {
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 5px 0;
+}
+
+#content-fights-detail .countdown-block-fights > * {
+	margin-right: 15px;
+}
+
+#content-fights-detail .countdown-block-fights > p {
+	margin-left: 15px;	
+
+}
+
+#content-fights-detail .user-register-fights {
+	color: red;
+	font-weight: 700;
+}
+
+#content-fights-detail #countdown-end-fights {
+	color: red;
+	text-transform: uppercase;
+}
+
+#content-fights-detail .countdown-block-fights > *:not(span) {
+	color: #898989;
+}
+
+#content-fights-detail .countdown-text-fights li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+    font-size: 11px;
+    border: 1px solid #4D96FF;
+    border-radius: 5px;
+    color: #4D96FF;
+    text-align: center;
+}
+
+#content-fights-detail .countdown-text-fights-1 li,
+#content-fights-detail .countdown-text-fights-2 li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+    font-size: 11px;
+    border-radius: 5px;
+    color: #a1a1a1;
+    text-align: center;
+}
+
+#content-fights-detail .countdown-text-fights li span {
+	display: block;
+    font-size: 16px;
+    color: #4D96FF;
+}
+
+#content-fights-detail .countdown-text-fights-1 li span {
+	display: block;
+    font-size: 20px;
+    color: red;
+}
+
+#content-fights-detail .btn.btn-warning.btn-warning-fights-detail {
+	text-transform: uppercase;
+	color: #fff;
+	padding: 7px 15px;
+}
+
+/*-----------------LeaderBoard-------------------*/
+
+.leaderboard-fights-detail {
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+
+#content-fights-detail .leaderboard-fights-detail a.nav-link-leaderboard-fights-detail {
+	border-left: 0;
+}
+
+#content-fights-detail .leaderboard-fights-detail a.nav-link {
+	padding: 15px 10px;
+}
+
+#content-fights-detail .content-fights-detail {
+	padding: 0px 20px;
+}
+
+#content-fights-detail .content-fights-detail-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+#content-fights-detail .content-fights-detail-title {
+	font-size: 36px;
+	color: #4D96FF;
+	font-weight: bold;
+}
+
+#content-fights-detail .content-fights-detail-text {
+	padding: 20px 20px 5px;
+	/*margin-bottom: 30px;*/
+}
+
+/*-----------Table---------------*/
+
+#content-fights-detail .table-fights-detail {
+	font-size: 13px;
+	background-color: #D1E3FC;
+}
+
+#content-fights-detail .table-fights-detail > thead > tr > th {
+	border-color: #fff;
+}
+
+#content-fights-detail .th-fights-detail-rank {
+	width: 50px;
+}
+
+#content-fights-detail .th-fights-detail-user {
+	width: 450px;
+}
+
+#content-fights-detail .th-link-alphabet {
+	background-color: #B3CBD7;
+}
+
+#content-fights-detail .th-link-alphabet a {
+	display: block;
+	color: #fff;
+	font-weight: bold;
+}
+
+#content-fights-detail .th-link-alphabet a:first-child {
+	padding-bottom: 5px;
+}
+
+#content-fights-detail .th-fights-detail-code {
+	font-weight: bold;
+}
+
+#content-fights-detail .th-fights-detail {
+	font-weight: bold;
+	color: #333;
+	line-height: 60px;
+}
+
+#content-fights-detail .td-fights-detail td {
+	background-color: #fff;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#content-fights-detail .td-fights-detail > td:nth-child(2) {
+	text-align: left;
+}
+
+#content-fights-detail .table-fights-detail-user {
+	color: #337ab7;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+#content-fights-detail .table-fights-detail-user:hover {
+	text-decoration: underline;
+}
+
+#content-fights-detail .table-fights-detail-address {
+	padding-bottom: 5px;
+	display: inline-block;
+}
+
+#content-fights-detail .table-fights-detail-text-1 {
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+#content-fights-detail .table-fights-detail-text-2 {
+	color: #898989;
+	padding-bottom: 5px;
+}
+
+#content-fights-detail .table-fights-detail-text-3 {
+	color: #b9b5af;
+	font-style: italic;
+	font-size: 11px;
+}
+
+#content-fights-detail .table-fights-detail-text-1-total {
+	color: #ff0000;
+}
+
+#content-fights-detail .table-fights-detail-address,
+#content-fights-detail .table-fights-detail-school {
+	color: #898989;
+}
+
+#content-fights-detail .td-fights-detail-4th-text {
+	line-height: 60px;
+	color: #898989;
+}
+
+/*-------------Page Number---------------*/
+
+#content-fights-detail .page-item-fights > a {
+	color: #333;
+}
+
+#content-fights-detail .fas.fa-user.fa-user-fights {
+	font-size: 16px;
+}
+
+#content-fights-detail nav.nav-page-fights-detail {
+	margin-bottom: 30px;
+}
+
+#content-fights-detail .fights-detail-tab-2-info li,
+#content-fights-detail .fights-detail-tab-2-desc,
+#content-fights-detail .fights-detail-tab-2-title {
+	text-align: right;
+	padding-bottom: 30px;
+	padding-right: 30px;
+}
+
+#content-fights-detail .fights-detail-tab-2-title {
+	color: #FF5722;
+	font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+#content-fights-detail .fights-detail-tab-2-desc {
+	color: #f6c174;
+    font-size: 15px;
+}
+
+#content-fights-detail .fights-detail-tab-2-info {
+
+}
+
+#content-fights-detail .fights-detail-tab-2-info li i {
+	color: #FF0000;
+	margin-right: 10px;
+}
+
+#content-fights-detail .fights-detail-tab-2-title-2 {
+	color: #FF5722;
+	font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#content-fights-detail .fights-detail-tab-2-info li span strong {
+	font-weight: bold;
+}
+
+#content-fights-detail .fights-detailt-tab-2 {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 30px;
+	line-height: 25px;
+}
+
+#content-fights-detail .fights-detailt-tab-2-number {
+	background: #f58323;
+	color: #fff;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    line-height: 23px;
+    margin-right: 30px;
+    flex: none;
+}
+
+/*----------Box Comment-------------*/
+
+#content-fights-detail .box-cmt-fights-detail-block {
+	padding: 30px;
+}
+
+#content-fights-detail .box-cmt-fights-detail-count {
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+#content-fights-detail .box-cmt-fights-detail {
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+
+#content-fights-detail .box-cmt-fights-detail-input {
+	min-height: 84px;
+	width: 100%;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+#content-fights-detail .box-cmt-fights-detail textarea {
+	margin-left: 20px;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+#content-fights-detail .box-cmt-fights-detail-block hr {
+	width: 94.5%;
+	display: block;
+	float: right;
+}
+
+#content-fights-detail .fights-detail-list-cmt {
+	margin-top: 40px;
+	display: flex;
+
+}
+
+#content-fights-detail .fights-detail-list-cmt > img {
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+#content-fights-detail img.fights-detail-btn-like,
+#content-fights-detail span.fights-detail-count-like,
+#content-fights-detail .fights-detail-big-dot {
+	display: inline-block;
+	padding-right: 5px;
+}
+
+#content-fights-detail .fights-detail-big-dot {
+	color: #D8D8D8;
+    margin: 0px 10px;
+}
+
+#content-fights-detail .fights-detail-list-cmt-date {
+	color: #898989;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#content-fights-detail .fights-detail-list-cmt-text {
+	margin: 20px 0;
+}
+
+#content-fights-detail .fights-detail-form-like {
+	margin-bottom: 20px;
+}
+
+#content-fights-detail .fights-detail-cmt-reply {
+	color: #898989;
+}
+
+#content-fights-detail .fights-detail-cmt-reply:hover {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+#content-fights-detail img.fights-detail-list-cmt-img {
+	margin-left: 50px;
+}

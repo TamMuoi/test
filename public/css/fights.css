@@ -1,0 +1,355 @@
+.breadcrumb-content {
+	background-color: #f1f1f1;
+	color: #4D96FF;
+	padding: 0.75rem 0;
+	font-size: 12px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    /*color: #6c757d;*/
+    content: ">";
+}
+
+.breadcrumb > li + li:before {
+	content: ">\00a0";
+    padding: 0 5px;
+    color: #4D96FF;
+}
+
+#content-fights .breadcrumb-nav-fights {
+	height: 40px;
+}
+
+#content-fights .breadcrumb-fights {
+	margin-bottom: 0;
+}
+
+/*--Banner--*/
+
+.banner-fights {
+	background-image: url("../image/banner-fights.jpg");
+	width: 100%;
+	height: 240px;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.banner-fights {
+/*	width: 100%;
+	max-height: 240px;
+	height: auto;*/
+}
+
+.banner-fights img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 5;
+}
+
+/*---------Count down-----------*/
+
+#content-fights .countdown-block-fights {
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 5px 0;
+}
+
+#content-fights .countdown-block-fights > * {
+	margin-right: 15px;
+}
+
+#content-fights .countdown-block-fights > p {
+	margin-left: 15px;	
+
+}
+
+#content-fights .user-register-fights {
+	color: red;
+	font-weight: 700;
+}
+
+#content-fights #countdown-end-fights {
+	color: red;
+	text-transform: uppercase;
+}
+
+#content-fights .countdown-block-fights > *:not(span) {
+	color: #898989;
+}
+
+#content-fights .countdown-text-fights li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+    font-size: 11px;
+    border: 1px solid #4D96FF;
+    border-radius: 5px;
+    color: #4D96FF;
+    text-align: center;
+}
+
+#content-fights .countdown-text-fights-1 li,
+#content-fights .countdown-text-fights-2 li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px;
+    font-size: 11px;
+    border-radius: 5px;
+    color: #a1a1a1;
+    text-align: center;
+}
+
+#content-fights .countdown-text-fights li span {
+	display: block;
+    font-size: 16px;
+    color: #4D96FF;
+}
+
+#content-fights .countdown-text-fights-1 li span {
+	display: block;
+    font-size: 20px;
+    color: red;
+}
+
+#content-fights .serach-fights {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#content-fights .fa-search-fights {
+	position: absolute;
+	top: 10px;
+    right: 25px;
+    color: #4D96FF;
+}
+
+#content-fights .input-search[type="text"] {
+	font-style: italic;
+	font-size: 15px;
+	/*outline: none;
+	border: none;
+	box-shadow: none;*/
+}
+
+/*-----------------Codecamp Block-------------------*/
+
+#content-fights .codecamp-block-fights {
+	background-color: #fff;
+	/*padding: 15px;*/
+}
+
+.codecamp-fights {
+	/*margin-bottom: 20px;*/
+	padding: 20px;
+}
+
+.codecamp-block-fights:nth-child(2n) {
+	background-color: #f3f9ff !important;
+}
+
+.list-cup-fights--img {
+	display: inline-block;
+}
+
+.list-cup-fights--li {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+.list-cup-fights--name {
+	line-height: 30px;
+}
+
+.list-cup-fights {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: center;
+}
+
+.list-cup-fights--li > * {
+	padding-right: 15px;
+}
+
+.codecamp-list-block-fights {
+	margin-bottom: 30px;
+}
+
+.codecamp-info-fights--tag span {
+	border: 1px solid #DCDCDC;
+	background-color: #f5f5f5;
+	color: #898989;
+	border-radius: 3px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.codecamp-info-fights--text h3 a {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #3E3E3E;
+}
+
+.codecamp-info-fights--text h3:hover {
+	text-decoration: underline;
+}
+
+.codecamp-info-fights--text p,
+.list-cup-fights--name {
+	color: #3E3E3E;
+}
+
+.codecamp-info-fights--text > *,
+.codecamp-info-fights--icon {
+	margin-bottom: 15px;
+}
+
+.fa-user-fights,
+.codecamp-user-fights p {
+	color: #aab3c0;
+}
+
+#codecamp-countdown-fights--text,
+#codecamp-countdown-fights--text2,
+#codecamp-countdown-fights--text3 {
+	margin-top: 15px;
+}
+
+#codecamp-countdown-fights--text a {
+	background-color: #ee4035;
+	color: #fff;
+	padding: 9px 27px;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+#codecamp-countdown-fights--text2 a {
+	background-color: #4D96FF;
+	color: #fff;
+	padding: 9px 27px;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+.codecamp-date-fights {
+	color: #3e3e3e;
+}
+
+#codecamp-countdown-fights--text3 a {
+	background-color: #bebebe;
+	color: #fff;
+	padding: 9px 27px;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+#content-fights .countdown-text-fights-2 li span {
+	display: block;
+    font-size: 20px;
+    color: #4D96FF;
+}
+
+.codecamp-fights-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.codecamp-user-fights,
+.codecamp-countdown-fights {
+	text-align: center;
+}
+
+/*-------------Page Number---------------*/
+
+#content-fights .page-item-fights > a {
+	color: #333;
+}
+
+#content-fights .fas.fa-user.fa-user-fights {
+	font-size: 16px;
+}
+
+/*-----------------Responsive--------------*/
+
+@media only screen and (max-width: 1024px) {
+	.codecamp-user-fights {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	#content-fights .col-lg-6.codecamp-info-fights {
+		display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	#content-fights .col-lg-1.cup-fights {
+		display: flex;
+    	justify-content: center;
+	}
+
+	#content-fights .row.codecamp-fights-flex > * {
+		padding-bottom: 20px;
+		position: relative;
+	}
+
+	#content-fights .codecamp-info-fights:after {
+		content: "";
+		width: 70px;
+		height: 3px;
+		background-color: #4D96FF;
+		display: block;
+		margin-top: 30px;
+	}
+
+	#content-fights .serach-fights {
+		margin: 0 auto 20px;
+	}
+
+	#content-fights .codecamp-info-fights--text {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#content-fights .countdown-block-fights {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#content-fights .countdown-block-fights > *:not(#countdown-end-fights) {
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.col-12.col-md-12.col-lg-6.footer-copyright span {
+		font-size: 12px;
+	}
+
+	.col-12.col-md-12.col-lg-4.footer-support {
+		font-size: 12px;
+	}
+
+	.col-12.col-md-12.col-lg-4.footer-support a i {
+		font-size: 14px;
+	}
+}
+
+

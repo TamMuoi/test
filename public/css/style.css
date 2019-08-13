@@ -1,0 +1,363 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*-------Setup basics CSS---------*/
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 14px;/* 1rem = 10px */
+    /*overflow-x: hidden;*/
+    letter-spacing: 0.2px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+input,
+textarea,
+button {
+    outline: none;
+    box-shadow: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*------------Style Here-------------*/
+
+/*------------Header-------------*/
+header {
+	/*font-size: 1.6rem;*/
+}
+
+nav {
+	height: 68px;
+}
+
+#header-id div[href^="col"],
+#header-id ul[href^="col"] {
+	padding-right: 0 !important;
+	padding-top: 0 !important;
+}
+
+#header-id .nav-bg {
+	background: linear-gradient(29.81deg,#4D96FF 0%,#9570EE 100%);
+}
+
+#header-id .navbar-nav {
+	line-height: 25px;
+}
+
+#header-id .collapse.navbar-collapse {
+	justify-content: space-between;
+}
+
+#header-id .navbar-nav .nav-item .nav-link {
+	color: #fff;
+	padding: 15px 20px;
+	transition: all 0.4s;
+}
+
+#header-id .navbar-nav .nav-item .nav-link:hover:not(.nav-lang):not(.nav-info):not(.nav-bell) {
+	border-radius: 25px;
+    background-color: #5582ec!important;
+}
+
+.navbar-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#header-id .navbar-nav .nav-item .nav-link:focus {
+	color: #fff;
+}
+
+#header-id .dropdown-lang,
+#header-id .dropdown-lang-en,
+#header-id .dropdown-lang-vn {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.nav-info,
+.nav-bell {
+	padding: 0 10px;
+}
+
+
+#header-id .navbar-nav .nav-item .nav-link:hover,
+#header-id .dropdown-lang:hover {
+	color: #fff !important;
+}
+
+#header-id .navbar-right {
+	margin-bottom: 0 !important;
+	text-align: right;
+}
+
+#header-id .dropdown-lang:active,
+#header-id .dropdown-lang-en:active,
+#header-id .dropdown-lang-vn:active {
+	color: #fff;
+}
+
+#header-id .dropdown-lang:focus {
+	color: #fff !important;
+}
+
+#header-id .dropdown-lang {
+	color: #fff;
+}
+
+#header-id .dropdown-lang span,
+#header-id .dropdown-lang-en span,
+#header-id .dropdown-lang-vn span {
+	padding-left: 5px;
+}
+
+#header-id .navbar-right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#header-id .dropdown-view {
+	width: 270px;
+	top: 40px;
+
+}
+
+#header-id #navbarsExample09 {
+	z-index: 10;
+}
+
+#header-id .dropdown-view-all {
+	text-align: center;
+	color: #4D96FF;
+}
+
+#header-id .dropdown-view-all:hover {
+	text-decoration: underline;
+}
+
+#header-id .fa-bell,
+#header-id .fa-info-circle {
+	color: #fff;
+	font-size: 20px;
+}
+
+#header-id .navbar-right li a {
+	padding: 10px 10px;
+}
+
+#header-id .dropdown-info {
+	padding: 5px 10px;
+}
+
+#header-id .dropdown-info a,
+#header-id .dropdown-view p {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#header-id p.dropdown-view-notify {
+	padding: 0 0 8px 10px;
+	font-weight: 700;
+}
+
+#header-id .dropdown-info a:last-child {
+	border-bottom: none;
+}
+
+#header-id .dropdown-info, 
+#header-id .dropdown-language,
+#header-id .dropdown-view {
+	border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#header-id .dropdown-language {
+	/*top: 50px;*/
+}
+
+#header-id .nav-link-lang,
+#header-id .nav-link-bell,
+#header-id .nav-link-info,
+#header-id .nav-link-account {
+	padding: 15px 10px;
+}
+
+#header-id .btn-menu {
+	border: none;
+	outline: none;
+	font-size: 25px;
+}
+
+/*---------------Footer--------------*/
+
+.footer {
+    width: 100%;
+    background: linear-gradient(78.54deg,#4d96ff 20.98%,#9570ee 80.22%);
+    color: #fff;
+    /*height: 50px;*/
+}
+
+.footer-copyright {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 0;
+	line-height: 50px;
+}
+
+.footer-copyright span {
+	padding-left: 5px;
+}
+
+.footer-support span a {
+	color: #fff;
+}
+
+.footer-support {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.footer-support span a:hover {
+	color: #fff;
+	text-decoration: underline !important;
+}
+
+.footer-support i {
+	color: #fff;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.help {
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*-----------------Responsive-------------------*/
+
+@media only screen and (max-width: 991px) {
+	#header-id #navbarsExample09 {
+		background-color: rgba(0,0,0,0.8);
+	}
+
+	#header-id .nav-link-lang{
+		display: flex;
+		justify-content: center;
+	}
+
+	#header-id .nav-link-learn {
+		margin-top: 10px;
+	}
+
+	#header-id .nav-link-bell {
+		display: flex;
+		justify-content: center;
+	}
+
+	#header-id .nav-item-bell {
+		padding-bottom: 10px;
+	}
+
+	#header-id .dropdown-info {
+		margin-bottom: 20px;
+	}
+
+	.col-12.col-md-12.col-lg-2.footer-logo {
+		display: flex;
+		justify-content: center;
+	}
+
+	.col-12.col-md-12.col-lg-6.footer-copyright,
+	.col-12.col-md-12.col-lg-4.footer-support {
+	    display: flex;
+	    justify-content: center;
+	    line-height: 20px;
+	}
+
+	.col-12.col-md-12.col-lg-4.footer-support {
+		padding-bottom: 10px;
+	}
+
+}
+/*AJbxskdksa*/
